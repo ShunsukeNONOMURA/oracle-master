@@ -61,3 +61,6 @@ show parameter vector_memory_size;
 ## 参考
 - [Oracle Database Free](https://container-registry.oracle.com/ords/f?p=113:4:103964643960397:::4:P4_REPOSITORY,AI_REPOSITORY,AI_REPOSITORY_NAME,P4_REPOSITORY_NAME,P4_EULA_ID,P4_BUSINESS_AREA_ID:1863,1863,Oracle%20Database%20Free,Oracle%20Database%20Free,1,0&cs=3elILP2QyPpWaLXPK3HnCwbeJr7Z9ATR98UrqEJigk6rGV-6knchnmVKYEnwAFxAqr8AZtlomHXrcdD6VKtxKUw)
 - [Oracle Database 23ai のベクトル機能を試す手順 (1)](https://qiita.com/ryotayamanaka/items/156932a48e65d3ddc5ac)
+- [ORA-51955 when attempting to alter vector memory size on 23ai free](https://forums.oracle.com/ords/apexds/post/ora-51955-when-attempting-to-alter-vector-memory-size-on-23-9413)
+    - Connect to CDB$ROOT as SYSDBA の記載から vector_memory_size の変更にはCDBレベルでの設定が必要と思われる
+
